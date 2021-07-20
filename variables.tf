@@ -9,10 +9,14 @@ variable availability_zones {
   type        = list(string)
 }
 
-variable private_subnets {
-  type        = list(string)
+variable public_subnets_count {
+  type        = number
 }
 
-variable public_subnets {
-  type        = list(string)
+variable private_subnets_count {
+  type        = number
+}
+
+variable newbits {
+  type        = number
 }
